@@ -1,6 +1,5 @@
 # GCP resource hierarchy to BigQuery
 
-## Introduction
 With this script you can export your Google Cloud resource hierarchy to a BigQuery parent-child table with the following schema:
 
 ```
