@@ -75,10 +75,8 @@ def write_to_bq(assets, bq_project, bq_dataset, bq_table):
     job_config = bigquery.LoadJobConfig(
         schema=[
             bigquery.SchemaField('name', bigquery.enums.SqlTypeNames.STRING),
-            bigquery.SchemaField(
-                'display_name', bigquery.enums.SqlTypeNames.STRING),
-            bigquery.SchemaField(
-                'parent_name', bigquery.enums.SqlTypeNames.STRING)
+            bigquery.SchemaField('display_name', bigquery.enums.SqlTypeNames.STRING),
+            bigquery.SchemaField('parent_name', bigquery.enums.SqlTypeNames.STRING)
         ],
         write_disposition="WRITE_TRUNCATE"
     )
