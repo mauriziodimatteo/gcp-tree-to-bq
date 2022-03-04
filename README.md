@@ -46,3 +46,6 @@ If you are willing to create Custom Roles, you can (and should) further restrict
 
 ## Running the script
 Fill in `set_env.sh` with your values and run it before running the python script.
+
+## Disclaimer
+This is the part where I tell you that this is not an official Google repo, code is provided as-is and I will take no responsibility for whatever you do following the instructions.
